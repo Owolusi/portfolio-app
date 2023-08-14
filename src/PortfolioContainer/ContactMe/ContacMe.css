@@ -1,0 +1,157 @@
+.background-container {
+    position: relative;
+    background-image: url('../../assets/screen9.png');
+    background-size: cover;
+    background-position: center;
+    width: 97%;
+    height: 110vh; 
+    color: black;    
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: -5%;
+    margin-bottom:0%;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.contact-text{    
+  background-size: cover;
+  background-position: center;
+ position: absolute;
+ top: 23%; /* Adjust this value to vertically center the text */
+ left: 50%; /* Adjust this value to horizontally center the text */
+ transform: translate(-50%, -50%);
+ text-align: center;
+ color:black;
+ 
+ }
+.getInTouch-Container {
+background-image: url('../../assets/fr-pages-bg.jpg');
+  background-size: cover;
+ background-position: center;
+ color: white;
+position: absolute;
+top: 50%; 
+left: 45%; 
+transform: translate(-50%, -50%);
+text-align: center;
+width: 80%;
+height: 40vh;
+border-radius: 15px;
+}
+.GetInTouch-text{
+    width: 50%;
+    float: left;
+    margin: 30px 10px 10px 10px;
+
+}
+
+.form-container{
+        display: inline-block;
+        width: 40%;
+        margin: 2px;
+        padding: 0;
+        box-sizing: border-box;
+        border: 1px solid black;
+        float: right;
+        background-color: aliceblue;
+        color: black;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+    
+    .form{
+        background-color: rgb(139, 62, 211);
+        margin: 0;
+        width: 30%;
+        margin-right: -20px;
+    }
+    form{
+        margin: 2px;
+        
+
+    }
+    input{
+                display: block;
+                background:linear-gradient(to right,#e0d7f3, #e3d7dd);
+                padding: 8px 16px;
+                border:none;
+                border-radius:8px;
+                width:82%;
+                margin: 2px;
+                margin-right: -2px;
+                margin-left: 20px;
+                top: -10px;
+                height: 5vh;
+            }
+.Message-image{
+    position: absolute;    
+    height: 17vh;
+    width:76%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    transform: translate(-50%, -50%);
+    left: 38.5%;
+    right: 10%;
+    float: left;
+    top: 68%;
+    border-radius: 15px;
+}
+
+.Changing-text{
+    color: (--white);
+}
+
+
+/*social media icon*/
+.cool-icon i{
+    color: white;
+    padding: 8px;
+    padding-left: 0px;    
+}
+ .cool-icon i:hover{
+    transform: scale(1.5);
+    color: gold;
+}
+
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.form-container .submit-button {
+    width: 40%;
+    padding: 2px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 8%;
+  }
+  
+.submit-button:hover{
+    margin: 0 0 0 28px;
+    background-color: rgb(19, 10, 32); /*gives collor to the hire me*/
+    color: white;
+    box-sizing: border-box solid 1px gold;
+}
+  

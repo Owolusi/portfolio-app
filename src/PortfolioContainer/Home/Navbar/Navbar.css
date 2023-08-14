@@ -1,0 +1,21 @@
+/*COPIED FROM FASHION SHOP*/
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+     }
+   @media(min-width:768px){
+   .news-input{
+       width:50%;}
+   }
+   #map{
+       width: 100%;
+       height:100%; 
+       border:10%;
+   }
+
+.navbar{
+margin-bottom:0.25%; 
+background-image: url('../../../assets/fr-pages-bg.jpg');   
+color: white;
+}

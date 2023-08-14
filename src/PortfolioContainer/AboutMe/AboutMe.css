@@ -1,0 +1,41 @@
+        
+ .AboutMe-parent{
+            color: white;
+            text-align: center;
+            justify-content: center;
+            border-color: white;
+            width: 100%;
+            max-width: 100%;
+            margin: 0%;
+
+        }
+
+ .Aboutme-Picture-background{  
+            background-image: url('../../assets/earth.png');
+        }
+
+        .container{
+            display: flex;
+            text-align: center;
+            bottom: -5%;
+            border-radius: 5%;
+
+        }
+        .box{
+            width: 100%;
+            box-sizing: border-box;
+            margin: 0% 0 0 0;
+            background-color: white;
+            color:black;
+            padding: 0% 0 0 0;
+        }
+        .profile-options{
+            padding: 0;
+            margin: 0;
+
+        }
+        .aboutMe-text{
+            margin-top: 60px;
+        }
+
+       

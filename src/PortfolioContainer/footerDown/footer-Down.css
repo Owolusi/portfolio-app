@@ -1,0 +1,20 @@
+.nav-list{
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 4px 4px 4px 4px;
+    color: white;
+}
+
+.up{
+    margin-left: 95%;
+    height: 5vh;
+    margin-bottom: 15px;
+}
+.up-image{
+    width: 100%;
+}
+.nav-list:hover{
+    color: rgb(38, 156, 240);
+}
