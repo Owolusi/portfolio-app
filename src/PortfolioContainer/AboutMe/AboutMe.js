@@ -1,12 +1,17 @@
 import React from "react";
 import "./AboutMe.css";
-import pictureNw from '../../assets/mypic.jpg'
+import pictureNw from '../../assets/mypic.jpg';
+import divider from '../../assets/Line-Divider.png';
 
 export default function AboutMe(){
     return(
         <div className="AboutMe-parent" id="About-Me">
         <h1 className="Abt-ME">About me</h1>
         <span className="Abtme-para">Why choose me?</span>
+        <div className="line-divider">
+        <img src={divider}
+         className="divider" width={('20%')} alt=""/>
+        </div>
          
         <div className="container">
             <div className="box">
@@ -21,10 +26,8 @@ export default function AboutMe(){
              user-friendly and visually stunning web experiences.
              <br /> 
              I also possess exceptional skills in website design using tools 
-             like Figma and Canva. I build websites optimized for peak performance,
-              ensuring enhanced user engagement and satisfaction. 
-              My proficiency extends to 
-              <br />responsive web design, 
+             like Figma and Canva, to build websites optimized for peak performance,
+              ensuring enhanced user engagement and satisfaction by, 
               <br />ensuring seamless accessibility across all devices.
                 If you're looking for a skilled front-end developer who can transform 
                 your ideas into reality, I'm your go-to person.<br />

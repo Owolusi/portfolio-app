@@ -1,31 +1,10 @@
-/*.footer-container{
-    height: 17.8%;
-    width:100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.footer-parent{
-    width: 100%;
-    height: 100%;
-    max-width: 1920px;
-}
-.footer-parent img{
-    max-width: 100%;
-    height: 130px;
-}
+
 @media only screen and (max-width:110px){
     .footer-parent{
         display: flex;
         align-items: flex-end;
     }
 }
-.footer-text{
-    color: black;
-    font-size: 40px;
-}
-*/
 
 
 .background-container {
@@ -34,16 +13,15 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 98vh; /* You can adjust the height as needed */
-    color: black;
-    
-    margin: 0;
-    padding: 0;
+    height: 88vh; /* You can adjust the height as needed */
+    color: black;    
+    margin: 2px;
+    padding: 3px;
 }
 
 .text-container {
     position: absolute;
-    top: 50%; /* Adjust this value to vertically center the text */
+    top: 35%; /* Adjust this value to vertically center the text */
     left: 50%; /* Adjust this value to horizontally center the text */
     transform: translate(-50%, -50%);
     text-align: center;
@@ -65,7 +43,6 @@ p {
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-left: -100px;
 }
 .icon-images{
     margin:3px;

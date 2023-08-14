@@ -4,6 +4,7 @@ import signupImage from "../../assets/screen.png";
 import fashionImage from "../../assets/fashion.png";
 import fashionImage3 from "../../assets/screen3.png";
 import fashionImage4 from "../../assets/Fashion.jpg";
+import divider from '../../assets/Line-Divider.png';
 
 
 
@@ -12,6 +13,13 @@ export default function projects(){
 
         <div className="project-container" id="project">            
         <h2 className="text-center text-white">PROJECTS</h2>
+
+        <div className="line-divider2">
+        <img src={divider}
+         className="divider2" width={('19%')} alt=""/>
+        </div>
+
+
             <div className="project-parent">                
                 <div id="#instructors" className="p-9 bg-secondaary">
                         <div className="container">

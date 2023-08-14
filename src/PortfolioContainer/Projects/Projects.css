@@ -1,7 +1,15 @@
-.testimonial-parent{
+.project-parent{
     margin: 2% 2% 2% 2%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        border-color: white;
+        width: 100%;
+        max-width: 100%;
+        margin: 0%;
 
-}
+    }
+
 .project-container{
     margin-top: 10%;
     display: block;
@@ -13,4 +21,10 @@
 }
 .website-image{
     width: 100%;
+}
+.line-divider2{
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    width:100%;
 }
