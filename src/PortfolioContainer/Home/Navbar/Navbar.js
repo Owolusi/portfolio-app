@@ -3,11 +3,9 @@ import "./Navbar.css";
 
 export default function Navbar() {
     return(
-        <div className="navbar">            
-    <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-        <div className="container">
-            <a href="#" className="navbar-brand">MIGHTY TECH</a>
-            
+        <div className="navbar">                   
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+            <a href="#" className="navbar-brand">MIGHTY TECH</a>            
             <button className="navbar-toggler" type="button"
              data-bs-toggle="collapse" data-bs-target="#navmenu">
              <span className="navbar-toggler-icon"></span></button>
@@ -37,11 +35,9 @@ export default function Navbar() {
                     </li>
                 </ul>
             </div>
-            </div>
         </nav>
-
         </div>
-        
+  
         
 
     )

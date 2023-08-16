@@ -1,11 +1,19 @@
 import React from "react";
 import './Testimonial.css';
+import divider from '../../../assets/Line-Divider.png';
+
 
 export default function testimonial(){
     return(
         <div className="testimonial-container" id="testimony">            
         <h2 className="text-center text-white">TESTIMONIES</h2>
-        <p className="lead text-center text-white mb-5">From clients</p>
+        <p className="lead text-center text-white mb-5" id="client-Text">From clients</p>
+
+        <div className="line-divider3">
+        <img src={divider}
+         className="divider2" width={('49%')} alt=""/>
+        </div>
+
             <div className="testimonial-parent">                
 <div id="#instructors" className="p-9 bg-">
     <div className="container">

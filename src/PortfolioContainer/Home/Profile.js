@@ -1,10 +1,8 @@
 import React from 'react';
-
-
 import '../Home/Profile.css';
 
 export default function profile() {
-    return(
+    return(     
         <div className='profile-container'>
             <div className='profile-parent'>
                 <div className='profile-details'>

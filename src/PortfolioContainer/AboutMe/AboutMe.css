@@ -32,7 +32,15 @@
         .profile-options{
             padding: 0;
             margin: 0;
+        }
+        .primary-btn:hover{
+            color: black;
 
+        }
+        .aboutMe-text{
+            margin-top: 20px;
+            display: inline-block;
+            padding-bottom: 160px;
         }
     
        

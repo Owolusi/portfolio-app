@@ -1,4 +1,8 @@
-/*COPIED FROM FASHION SHOP*/
+body{
+    min-height: 0rem;
+    padding-top: -20.5rem;
+    margin-top: -4rem;
+}
 body::before{
     display: block;
     content: "";
@@ -6,7 +10,7 @@ body::before{
      }
    @media(min-width:768px){
    .news-input{
-       width:50%;}
+       width:100%;}
    }
    #map{
        width: 100%;
@@ -18,4 +22,17 @@ body::before{
 margin-bottom:0.25%; 
 background-image: url('../../../assets/fr-pages-bg.jpg');   
 color: white;
+width: 100%;
+}
+.navbar-collapse{
+    margin-right:90px;
+}
+.navbar-brand{
+    margin-left: 50px;
+
+}
+.nav-item{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

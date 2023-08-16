@@ -16,7 +16,7 @@ export default function projects(){
 
         <div className="line-divider2">
         <img src={divider}
-         className="divider2" width={('19%')} alt=""/>
+         className="divider2" width={('49%')} alt=""/>
         </div>
 
 

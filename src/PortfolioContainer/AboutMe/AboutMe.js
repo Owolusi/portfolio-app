@@ -10,7 +10,7 @@ export default function AboutMe(){
         <span className="Abtme-para">Why choose me?</span>
         <div className="line-divider">
         <img src={divider}
-         className="divider" width={('20%')} alt=""/>
+         className="divider" width={('49%')} alt=""/>
         </div>
          
         <div className="container">
@@ -29,6 +29,7 @@ export default function AboutMe(){
              like Figma and Canva, to build websites optimized for peak performance,
               ensuring enhanced user engagement and satisfaction by, 
               <br />ensuring seamless accessibility across all devices.
+              <br/>
                 If you're looking for a skilled front-end developer who can transform 
                 your ideas into reality, I'm your go-to person.<br />
                 Hire me to bring your web projects to life!</p>             

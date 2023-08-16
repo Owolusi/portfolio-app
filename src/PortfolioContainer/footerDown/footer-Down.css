@@ -1,19 +1,29 @@
+.footer-cont{
+     margin-left: 25%;
+}
+
 .nav-list{
     list-style-type: none;
     padding: 0;
     display: inline-block;
     justify-content: space-between;
-    margin: 4px 4px 4px 4px;
+    margin: 6px 6px 7px 7px;
     color: white;
 }
 
 .up{
-    margin-left: 95%;
-    height: 5vh;
-    margin-bottom: 15px;
+    margin-left: 30%;
+    margin-bottom: 55px;
+    color: white;
 }
 .up-image{
     width: 100%;
+    color: white;
+    height: 20px;
+}
+.arrowImg{
+    height: 12px;
+    width: 2%;
 }
 .nav-list:hover{
     color: rgb(38, 156, 240);
