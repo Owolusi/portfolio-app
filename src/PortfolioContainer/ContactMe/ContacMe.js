@@ -53,15 +53,19 @@ export default function Footer(){
             {/*spammer */}
             <input type="text" name="_honey"  style={{display:'none'}}/>
 
-             {/*spammer */}
+             {/*disable captcha*/}
              <input type="hidden" name="_captcha" value="false"/>
 
+                {/*spammer */}
+             <input type="hidden" name="_next" value="https://portfolio-app-taupe-gamma.vercel.app/success.html"/>
+
+
                 <label  className="login">Name</label>
-                <input type="text" name="name" placeholder="Your name"/>
+                <input type="text" name="name" placeholder="Your name" required/>
                 <label class="Email" for="Email" > Email</label>
-                <input type="Email" name="emailaddress" placeholder="your Email address"/>
+                <input type="Email" name="emailaddress" placeholder="your Email address" required/>
                 <label for="Message">Message</label>
-                <input type="text" name="comments. questions" placeholder="your message"/>
+                <input type="text" name="comments. questions" placeholder="your message" required/>
                 <button type="submit" className="submit-button">Submit</button>           
 
             </form>      
