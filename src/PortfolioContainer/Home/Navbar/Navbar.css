@@ -36,3 +36,14 @@ width: 100%;
     align-items: center;
     text-align: center;
 }
+
+
+.navbar-toggler{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    margin-right: 20px;
+}

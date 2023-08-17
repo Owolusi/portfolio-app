@@ -1,5 +1,8 @@
 .footer-cont{
-     margin-left: 25%;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+
 }
 
 .nav-list{
@@ -12,19 +15,31 @@
 }
 
 .up{
-    margin-left: 30%;
     margin-bottom: 55px;
     color: white;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 .up-image{
     width: 100%;
     color: white;
-    height: 20px;
+    height: 20px;    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 .arrowImg{
     height: 12px;
     width: 2%;
 }
 .nav-list:hover{
-    color: rgb(38, 156, 240);
+    color: rgb(145, 202, 244);
+}
+
+.footer2{
+    margin-top: -10px;
 }

@@ -28,3 +28,6 @@
     margin-left:25%;
     width:100%;
 }
+.mb-3, .card-text{
+    color: black;
+}

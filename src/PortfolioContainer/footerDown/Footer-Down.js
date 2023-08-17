@@ -33,7 +33,7 @@ export default function FooterDown(){
 </ul>
 
         <div className="up">            
-        <a href="" className="up-image">Home<img className="arrowImg" src={arrowImage}/>
+        <a href="#" className="up-image">Home<img className="arrowImg" src={arrowImage}/>
         </a>
         </div>
         </div>

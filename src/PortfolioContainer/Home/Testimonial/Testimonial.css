@@ -11,10 +11,16 @@
     margin-top: 4%;
     margin-bottom: 4%;
 }
-.line-divider3{
-    width: 80%;
-    margin-top: -50px;
-    margin-bottom: -40px;
-    margin-left: 350PX;
 
+.line-divider3{
+    justify-content: center;
+    align-items: center;
+    margin-left:25%;
+    width:100%;    
+    margin-top: -51px;
+    margin-bottom: -19px;
+}
+#testimony{
+    padding-top: -20px;
+    margin-top: -3px;
 }
