@@ -49,12 +49,19 @@ export default function Footer(){
 
         <div className="form-container">
         <form action="https://formsubmit.co/e3c1ca1012a4635b3318e09149b93f23" method="POST">
+            
+            {/*spammer */}
+            <input type="text" name="_honey"  style={"display:none;"}/>
+
+             {/*spammer */}
+             <input type="hidden" name="_captcha" value={"false"}/>
+
                 <label  className="login">Name</label>
                 <input type="text" name="name" placeholder="Your name"/>
                 <label class="Email" for="Email" > Email</label>
                 <input type="Email" name="emailaddress" placeholder="your Email address"/>
                 <label for="Message">Message</label>
-                <input type="text" name="message" placeholder="your message"/>
+                <input type="text" name="comments. questions" placeholder="your message"/>
                 <button type="submit" className="submit-button">Submit</button>           
 
             </form>      
