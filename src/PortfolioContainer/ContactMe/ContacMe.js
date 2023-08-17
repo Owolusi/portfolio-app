@@ -48,7 +48,7 @@ export default function Footer(){
 
 
         <div className="form-container">
-        <form action="https://formsubmit.co/m.bunmi5@gmail.com" method="POST">
+        <form action="https://formsubmit.co/e3c1ca1012a4635b3318e09149b93f23" method="POST">
                 <label  className="login">Name</label>
                 <input type="text" name="name" placeholder="Your name"/>
                 <label class="Email" for="Email" > Email</label>
