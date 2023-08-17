@@ -31,3 +31,30 @@
 .mb-3, .card-text{
     color: black;
 }
+.live-btn{
+    box-sizing: border-box;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 04px -9px -11px;
+    width: 73px;
+    height: 2rem;
+    font-family: sans-serif;
+    font-family: 20px;
+}
+
+.code-btn{
+    
+    box-sizing: border-box;
+    border-radius: 30px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 73px;
+    height: 2rem;
+    
+    font-family: sans-serif;
+    font-family: 20px;
+}

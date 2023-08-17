@@ -2,8 +2,7 @@ import React from "react";
 
 import arrowImage from '../../assets/back-arrow.png';
 import "./footer-Down.css";
-
-
+import { FaHouse } from "react-icons/fa6";
 
 export default function FooterDown(){
     return(          
@@ -33,8 +32,7 @@ export default function FooterDown(){
 </ul>
 
         <div className="up">            
-        <a href="#" className="up-image">Home<img className="arrowImg" src={arrowImage}/>
-        </a>
+        <a href="#" className="up-image"><FaHouse size={'1.2rem'} alt="home"/></a>
         </div>
         </div>
 </div>
