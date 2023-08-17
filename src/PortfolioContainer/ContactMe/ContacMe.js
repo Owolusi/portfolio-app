@@ -51,10 +51,10 @@ export default function Footer(){
         <form action="https://formsubmit.co/e3c1ca1012a4635b3318e09149b93f23" method="POST">
             
             {/*spammer */}
-            <input type="text" name="_honey"  style={"display:none;"}/>
+            <input type="text" name="_honey"  style={{display:'none'}}/>
 
              {/*spammer */}
-             <input type="hidden" name="_captcha" value={"false"}/>
+             <input type="hidden" name="_captcha" value="false"/>
 
                 <label  className="login">Name</label>
                 <input type="text" name="name" placeholder="Your name"/>
