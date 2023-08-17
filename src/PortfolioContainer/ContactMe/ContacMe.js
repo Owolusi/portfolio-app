@@ -57,7 +57,7 @@ export default function Footer(){
              <input type="hidden" name="_captcha" value="false"/>
 
                 {/*spammer */}
-             <input type="hidden" name="_next" value="https://portfolio-app-taupe-gamma.vercel.app/success.html"/>
+             <input type="hidden" name="_next" value=""/>
 
 
                 <label  className="login">Name</label>
