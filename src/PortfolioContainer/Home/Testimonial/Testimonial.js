@@ -1,9 +1,20 @@
 import React from "react";
+import { useState } from "react";
 import './Testimonial.css';
 import divider from '../../../assets/Line-Divider.png';
+import { images } from "../../../Helpers/TestimonialData";
+
+import { FaArrowLeft, FaArrowRight, FaBackward } from "react-icons/fa6";
+import { FaForward } from "react-icons/fa6";
 
 
-export default function testimonial(){
+
+
+
+
+export default function Testimonial(){
+    const [currDiv, setCurrDiv]=useState(0);
+
     return(
         <div className="testimonial-container" id="testimony">            
         <h2 className="text-center text-white">TESTIMONIES</h2>
@@ -14,68 +25,33 @@ export default function testimonial(){
          className="divider2" width={('49%')} alt=""/>
         </div>
 
-            <div className="testimonial-parent">                
-<div id="#instructors" className="p-9 bg-">
-    <div className="container">
-            <div className="row">
 
-                <div className="col-md-6 col-lg-3">
-                    <div className="card bg-light">
-                    <div className="card-body">
-               <img src="https://randomuser.me/api/portraits/men/11.jpg" className="rounded-circle"/>
-               <h3 className="card-title mb-3">Lekan</h3>
-               <h6 className="card-title mb-3">Lead designer Terain-Fashion</h6>
-                <p className="card-text">
-                Mighty developed a well desined website for a fashion website that really help our customer to aceess our product at their conveniences
-            </p>            
-            </div>
-            </div>
-            </div>
-            <div className="col-md-6 col-lg-3">
-                <div className="card bg-light">
-                <div className="card-body">
-                <img src="https://randomuser.me/api/portraits/men/3.jpg" className="rounded-circle" alt=""/>
-                <h3 className="card-title mb-3">Mr Godwin</h3>
-                <h6 className="card-title mb-3">CEO G-Gold fashion</h6>
-                <p className="card-text">Mighty desined a website that help us to teach our students easily and introduced our products to the market</p>
-              
-            </div>
-            </div>
-        </div>
+        <div className="carol">
+    <div className="Left" 
+           onClick={()=>{
+            currDiv>0 && setCurrDiv(currDiv-1);//if else statement in js
+           }}>
 
-        
-        <div className="col-md-6 col-lg-3">
-                <div className="card bg-light">
-                <div className="card-body">
-                <img src="https://randomuser.me/api/portraits/women/12.pg" className="rounded-circle" alt=""/>
-                <h3 className="card-title mb-3">Temitope</h3>
-                <h6 className="card-title mb-3">Freelancer at Fiverr</h6>
+            <FaArrowLeft style={{fontSize:30}}/>
 
-                <p className="card-text">As a we designer Mighty has helped me to transfer my designs into cool websites for my clients.</p>
-              
-            </div>
-            </div>
-        </div>
+           </div>
+           <div className="Center">
 
-            <div className="col-md-6 col-lg-3">
-                <div className="card bg-light">
-                <div className="card-body">
-                <img src="https://randomuser.me/api/portraits/men/12.jg"
-                className="rounded-circle" alt=""/>
-                <h3 className="card-title">Micheal</h3>
-                <h6 className="card-title mb-3">Freelancer at Upwork</h6>
-
-                <p className="card-text">I have worked with Micheal on many occasions and he is a good web developer
-                with good work ethics.</p> 
-            </div>
-            </div>
-        </div>
-
-        </div>
-        </div>
-    </div>
-            </div>
             
+           <img src='{images[currDiv].Client1}' className="rounded-circle"/>
+               <h3 className="card-title mb-3">{images[currDiv].title}</h3>
+               <h6 className="card-title mb-3">{images[currDiv].subtitle}</h6>
+                <p className="card-text">{images[currDiv].detail}</p>         
+
+           </div>
+           <div className="right"
+           onClick={()=>{
+            currDiv<images.length-1 && setCurrDiv(currDiv+1) //if else statement in js
+           }}>
+           <FaArrowRight  style={{fontSize:30}}/>
+            
+           </div>              
+            </div>
             </div>
 
     )

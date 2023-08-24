@@ -1,5 +1,4 @@
 import React from "react";
-
 import arrowImage from '../../assets/back-arrow.png';
 import "./footer-Down.css";
 import { FaHouse } from "react-icons/fa6";
