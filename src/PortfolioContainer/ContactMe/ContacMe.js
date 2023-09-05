@@ -7,7 +7,7 @@ export default function Footer(){
     return(
     <div className="background-container" id="Contact-nav">
         <div className="contact-text">       
-        <h1>Contact Me</h1>
+        <h1 className="contact-label">Contact Me</h1>
         <p>Lets Keep In Touch</p> 
         </div>
         

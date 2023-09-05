@@ -3,7 +3,7 @@
 .testimonial-container{
     margin-top: 10%;
     display: block;
-    width: 90%;
+    width: 95%;
 
 
 }
@@ -67,6 +67,16 @@
     color: white;
     cursor: pointer;
 }
+ @media screen and (max-width:900px){
+
+    .carol{
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+ }
+
+
 
 
 

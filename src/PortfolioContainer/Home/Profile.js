@@ -45,7 +45,7 @@ export default function profile() {
                          
                         </h1>
                         <span className='profile-role-tagline'>
-                            Passionate about frontend development and web designs
+                        Enthusiastic frontend developer and web designer
                         </span>
                         
                     </span>

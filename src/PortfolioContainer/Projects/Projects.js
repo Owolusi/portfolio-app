@@ -27,7 +27,7 @@ function Carousel() {
       
       <div className='project-details'> 
 
-      <h1>{images[currImg].title}</h1>
+      <h1 className='project-label'>{images[currImg].title}</h1>
             <p>{images[currImg].subtitle}</p>             
             <a href={images[currImg].link}target="_blank" rel='no referer'>
          <button className='live-btn'>Live</button>

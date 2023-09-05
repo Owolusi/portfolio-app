@@ -154,4 +154,26 @@ border-radius: 15px;
     color: white;
     box-sizing: border-box solid 1px gold;
 }
+
+@media screen and (max-width:900px){
+    .contact-label{
+        font-size: 30px;
+    }
+    .getInTouch-Container{
+        top: 44%;
+    }
+    .contact-text{
+        margin-bottom: 10px;
+    }
+    .Message-image{
+        width: 76%;
+        height: 10em;
+    }
+    .form-container{
+        width: 41%;
+        height: initial;
+
+    }
+}
+
   

@@ -2,7 +2,7 @@
 
 
 .project-container{
-    margin-top: 20px;
+    margin-top: -22px;
     display: block;
     padding-top: 7%;
     width: 100%;
@@ -87,14 +87,10 @@
     align-items: center;
     text-align: center;
     color: black;
-
-    margin: 0% 2% 2% 2%;
-         border-color: white;
+     border-color: white;
          width: 100%;
          max-width: 100%;
-         margin: 0% 0px; 
- 
-   
+         margin-top:-52px;  
  
  }
  
@@ -134,7 +130,22 @@
      cursor: pointer;
  }
  
- 
+ @media screen and (max-width:900px){
+    .project-details{
+        position: initial;
+        width: 95%;
+        height: 49vh;
+        margin-bottom: 20px;
+        margin-left: 11px;
+
+        
+    .project-label{
+        font-size: 16px;
+    }
+    }
+
+    
+ }
  
  
  

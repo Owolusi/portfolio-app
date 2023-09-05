@@ -16,29 +16,15 @@
 
 
 
-        .container {
-            overflow: hidden; 
+        .abt-container {
             display: flex;
           }
         
-          .image-box {
-            float: left;
-            width: 50%; /* Adjust this as needed */
-            box-sizing: border-box;
-            padding: 10px; /* Add padding for spacing */
-          }
-        
-          .image-box img {
-            max-width: 100%;
-          }
-        
-          .text-box {
+                  .text-box {
             word-wrap: break-word;
             height: 30vh;
             float: left;
-            width: 50%; /* Adjust this as needed */
-            box-sizing: border-box;
-            padding: 10px; /* Add padding for spacing */
+            width: 50%; 
           }
           .aboutMe-text p{
             height: 30vh;
@@ -46,3 +32,11 @@
           .aboutMe-text{
             height: 30vh;
           }
+
+          @media screen and (max-width:900px){
+            .AboutMe-parent{
+              margin-bottom:193px;
+              margin-top: -118px;
+            
+          }
+        }

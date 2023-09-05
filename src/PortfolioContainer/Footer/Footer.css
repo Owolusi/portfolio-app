@@ -1,19 +1,11 @@
 
-@media only screen and (max-width:110px){
-    .footer-parent{
-        display: flex;
-        align-items: flex-end;
-    }
-}
-
-
-.background-container {
+.footer-container {
     position: relative;
     background-image: url('../../assets/screen9.png');
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 88vh; /* You can adjust the height as needed */
+    height:85vh;
     color: black;    
     margin: 2px;
     padding: 3px;
@@ -21,15 +13,15 @@
 
 .text-container {
     position: absolute;
-    top: 35%; /* Adjust this value to vertically center the text */
-    left: 50%; /* Adjust this value to horizontally center the text */
-    transform: translate(-50%, -50%);
+    top: 35%; 
+    left: 50%;
+      transform: translate(-50%, -50%);
     text-align: center;
-    color: black; /* Adjust the text color to your liking */
+    color: black;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: bold;
     margin-top: -5%;
     margin-bottom:0%;
@@ -39,14 +31,33 @@ p {
     font-size: 18px;
     font-weight: normal;
 }
-.icon-container{
+.footer-icon{
     display:flex;
     align-items: center;
     justify-content: center;
+    bottom: -20px;
 }
 .icon-images{
     margin:3px;
     height: auto;
     width: 17%;
     max-width: 100%;
+}
+
+@media only screen and (max-width:110px){
+    .footer-parent{
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .footer-container{
+        height: 57vh;
+        margin-bottom: 45px;
+    }
+    .footer-label{
+        font-size: 31px;
+    }
+    
 }
